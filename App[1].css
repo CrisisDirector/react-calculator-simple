@@ -1,0 +1,49 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input, button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+
+.container .operator-buttons {
+  order: 1;
+  width: 100%;
+  display: flex;
+  justify-content: normal;
+}
+
+.container .reset-buttons {
+  order: 2;
+  width: 100%;
+  display: flex;
+  justify-content: normal;
+}
+
+.container .reset-buttons button:nth-last-child(2) {
+  background: rgb(164, 5, 5);
+  color: white;
+}
+
+.container .reset-buttons button:nth-last-child(1) {
+  background: rgb(13, 2, 165);
+  color: white;
+}
